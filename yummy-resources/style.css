@@ -1,0 +1,114 @@
+html {
+  scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+
+}
+.pag1{
+background-color: #F8F6E9ed;
+}
+section{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+
+img{
+  width: 50%;
+}
+
+p{
+  position:absolute;
+  left: 60%;
+  margin-top:200px;
+  font-size: 50px;
+  color: #58010B;
+  background-color: #fff9d500 ;
+}
+
+button{
+        position:absolute;
+        left: 60%;
+        top: 45%;
+        margin-left:74px;
+        margin-top:200px;
+        font-size: 30px;
+        color: #58010B;
+        border-radius: 10px;
+        background-color: #fff9d500 ;
+        padding: 40px 20px;
+    }
+
+ .triangle {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 70px solid #58010B;
+    position: absolute;
+    top: 0;
+    transform: rotate(90deg);
+    background-color: #F8F6E9;
+    border-radius: 10px;
+    left: 29px ;
+    
+    
+  }
+  .circle {
+    width: 15px;
+    height: 15px;
+    background-color: #F8F6E9;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    left: -8px;
+    
+    
+ 
+  }
+
+  .menu{
+    overflow: hidden;
+  position: fixed;
+  top:0;
+  width: 100%;
+  padding-left: 1100px;
+  }
+  .menu a {
+    float: left;
+    display: block;
+    color: #58010B;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    justify-content: space-around;
+    margin: 20px;
+    font-size: 20px;
+  background-color: #F8F6E9;
+    
+  }
+  a{
+    background-color: #F8F6E9;
+    border-radius: 10px;
+}
+.yummy{
+  background-color: #F8F6E9;
+  
+  position: absolute;
+  top: 0px;
+  left: 50px;
+}
+#bookme {
+    background-color: #58010B;
+    border-radius: 10px;
+    color: #F8F6E9;
+}
+footer{
+    
+    background-color: black;
+    color: white;
+    width: 100%;
+    
+}
